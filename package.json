@@ -1,0 +1,18 @@
+{
+  "name": "paramizer",
+  "version": "0.0.0",
+  "description": "Helper with url params such as `/posts/:postId`",
+  "repository": {
+    "url": "https://github.com/francoisrv/paramizer"
+  },
+  "scripts": {
+    "build": "rm -f *.js *.d.ts *.d.ts.map && yarn tsc",
+    "test": "jest *.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "jest": "^26.2.2",
+    "typescript": "^3.9.7"
+  }
+}
